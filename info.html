@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.min.css">
+   <title>Главная</title>
+</head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+  <div class="header__body">
+    <a class="header__logo" href="index.html">
+      <img class="header__logo-image" src="img/logo/cat.png" alt="Logo" />
+      <div class="header__logo-box">
+        <img
+          class="header__logo-name"
+          src="img/logo/name.svg"
+          alt="Name clinic"
+        />
+        <img
+          class="header__logo-text"
+          src="img/logo/text.svg"
+          alt="Text clinic"
+        />
+      </div>
+    </a>
+    <div class="header__searsh">
+      <label for="header-search">
+        <img src="img/icon-svg/search.svg" alt="Search icon" />
+      </label>
+      <input type="text" id="header-search" placeholder="Поиск по сайту" />
+    </div>
+    <div class="menu__icon">
+      <span></span>
+    </div>
+    <div class="header__address">
+      <div class="header__box">
+        <span class="header__street">Одесса, Чкалова д. 57/5</span>
+        <span class="header__area">Приморский район</span>
+      </div>
+      <div class="header__box">
+        <span class="header__street">Одесса, Заболотного д.21/1</span>
+        <span class="header__area">Суворовский район</span>
+      </div>
+    </div>
+    <div class="header__contact">
+      <a class="header__tel" href="tel:+380971102303">+38 (097) 110-23-03</a>
+      <button type="button" class="header__order-call">Заказать звонок</button>
+    </div>
+  </div>
+</header>
+ <aside class="sidebar">
+  <nav class="sidebar__menu">
+    <ul class="sidebar__list">
+      <li><a class="sidebar__link" href="services-page.html">Наши услуги</a></li>
+      <li><a class="sidebar__link" href="cost.html">Стоимость</a></li>
+      <li>
+        <a class="sidebar__link" href="specialists.html">Сотрудники</a>
+      </li>
+      <li><a class="sidebar__link" href="shedule.html">График работы</a></li>
+      <li>
+        <button class="sidebar__link sidebar__arrow">О клинике</button>
+        <ul class="sidebar__sub-list">
+          <li>
+            <a class="sidebar__sub-link" href="about-us.html" data-id="0">Наша миссия</a>
+          </li>
+          <li>
+            <a class="sidebar__sub-link" href="about-us.html" data-id="1">Фотогалерея</a>
+          </li>
+          <li>
+            <a class="sidebar__sub-link" href="about-us.html" data-id="2">Отзывы</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <button class="sidebar__link sidebar__arrow">Полезное</button>
+        <ul class="sidebar__sub-list">
+          <li>
+            <a class="sidebar__sub-link" href="info.html" data-id="0">Истории пациентов</a>
+          </li>
+          <li>
+            <a class="sidebar__sub-link" href="info.html" data-id="1">Статьи</a>
+          </li>
+        </ul>
+      </li>
+      <li><a class="sidebar__link" href="contacts.html">Контакты</a></li>
+    </ul>
+    <div class="header__contact header__contact--sidebar">
+      <a class="header__tel" href="tel:+380971102303">+38 (097) 110-23-03</a>
+      <button type="button" class="header__order-call">Заказать звонок</button>
+    </div>
+  </nav>
+
+  <div class="sidebar__block">
+    <div class="sidebar__box">
+      <div class="sidebar__holder">
+        <h4 class="sidebar__slogan">Работаем для вас</h4>
+        <p class="sidebar__text">ежедневно и круглосуточно</p>
+      </div>
+      <button class="sidebar__button btn_red btn_reception">Записаться на прием</button>
+    </div>
+  </div>
+</aside>
+
+      <main class="main"><div class="info">
+	<div class="info__header">
+		<div class="container">
+			<div class="path">
+				<a href="index.html" class="path__main">
+					Главная
+				</a>
+				<div class="path__arrow">
+					<svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M-1.5299e-07 4.5L14 4.5M14 4.5C12.4108 3.5 9.78494 1 9.78494 1M14 4.5C12.4108 5.5 9.78494 8 9.78494 8"
+							stroke="#797C80" />
+					</svg>
+				</div>
+				<div class="path__this">
+					Истории пациентов
+				</div>
+			</div>
+			<div class="info__title">
+				Информативно и полезно
+			</div>
+			<div class="toggle info__toggle">
+				<div class="toggle__item toggle__item_active">Истории пациентов</div>
+				<div class="toggle__item">Статьи</div>
+			</div>
+		</div>
+	</div>
+	<div class="info__body">
+		<div class="container">
+		</div>
+	</div>
+</div> <footer class="footer">
+  <div class="container">
+    <div class="footer__body">
+      <div class="footer__info">
+        <div class="footer__social">
+          <h2 class="footer__title">
+            Подпишитесь, чтобы быть в курсе всех акций и новостей
+          </h2>
+          <div class="footer__link">
+            <img
+              src="img/icon-svg/insta.svg"
+              alt="instagram"
+              class="footer__img"
+              loading="lazy"
+            />
+            <a href="#" class="footer__instagram">vetket.clinic</a>
+          </div>
+        </div>
+        <div class="footer__text">
+          Обращаем Ваше внимание на то, что данный интернет-сайт носит
+          исключительно информационный характер и не является публичной офертой,
+          определяемой положениями ч.2 ст.37 Гражданского кодекса Украины. Для
+          получения подробной информации о стоимости и сроках выполнения услуг,
+          пожалуйста, обращайтесь к сотрудникам ветеринарного центра «ВетКэт».
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <div class="footer__copyright-left">
+          <p class="footer__copyright-text">
+            © Ветеринарный центр «ВетКэт». Все права защищены. 2020
+          </p>
+        </div>
+        <div class="footer__copyright-right">
+          <a href="#" class="footer__copyright-politic"
+            >Политика конфиденциальности</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</main>
+    </div>
+    <div class="popUp-reception">
+  <!-- //TODO//-->
+  <div class="popUp-reception__wrapper">
+    <div class="popUp-reception__close">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 4L20 20M4 20L20 4" stroke-width="2" />
+      </svg>
+    </div>
+    <div class="popUp-reception__title">Запись на прием</div>
+    <form>
+      <div class="input-wrapper__name">
+        <label for="nameRec">Имя и фамилия</label>
+        <input type="text" name="name" id="nameRec" required />
+      </div>
+      <div class="input-wrapper__tel">
+        <label for="phone">Телефон</label>
+        <input type="tel" name="phone" id="phone" required />
+      </div>
+      <div class="input-wrapper__toggle">
+        <label>Филиал центра</label>
+        <div class="toggle popUp-reception__toggle">
+          <div class="toggle__item toggle__item_active">Строгино</div>
+          <div class="toggle__item">Донской</div>
+        </div>
+      </div>
+      <div class="input-wrapper__date">
+        <label for="date">Дата приема</label>
+        <input type="date" name="date" id="date" required min="2023-07-01" />
+      </div>
+      <div class="input-wrapper__pets">
+        <label for="pets">Кто ваш питомец?</label>
+        <div class="label_absolute">например, кот Кокос</div>
+        <input type="text" name="pets" id="pets" required />
+      </div>
+      <div class="input-wrapper__text">
+        <label for="text">Сообщение <span>(необязательно)</span></label>
+        <div class="subtext">
+          Можете описать проблему вашего питомца или указать специалиста, к которому хотите попасть на прием
+        </div>
+        <textarea name="text" id="text"></textarea>
+      </div>
+      <div class="input-wrapper__terms">
+        <div class="terms">
+          <label class="terms__check">
+            <input type="checkbox" name="terms" id="terms" required />
+            <span class="terms__checkmark"></span>
+          </label>
+          <div class="terms__terms">Я согласен с <a href="#"> условиями обработки персональных данных</a></div>
+        </div>
+        <button class="btn btn_green popUp-reception__btn">Записаться</button>
+      </div>
+    </form>
+  </div>
+</div>
+ <script src="js/app.min.js" defer></script>
+  </body>
+</html>
